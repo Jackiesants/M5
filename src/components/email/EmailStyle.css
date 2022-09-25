@@ -1,0 +1,32 @@
+.EmailContainer{
+    font-style: Helvetica;
+    box-sizing: border-box;
+    padding-bottom: 2%;
+}
+
+.EmailPar{
+    font-size: 12px;
+    width: 520px;
+}
+.EmailTit {
+    font-size: 20px;
+    color:#707070;
+}
+
+.form-control{
+    width: 340px;
+    height: 40px;
+    border-radius: 0 !important;
+    border: 1px solid #707070;
+}
+.form-label {
+     margin-bottom: .1rem;
+}
+
+.Btn-Email{
+    background-color: #FFFFFF !important;
+    border-color: #707070 !important;
+    color: #707070 !important;
+    width: 340px !important;
+    height: 39px !important;
+}

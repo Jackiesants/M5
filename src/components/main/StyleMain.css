@@ -1,0 +1,90 @@
+
+main{
+    border-style: border-box;
+
+
+}
+.line{
+ 
+    width: 95vw;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+   
+}
+.lineRight{
+    display: block;
+    height: 2px;
+    background: #707070;
+    min-width: 350px;
+}
+
+.text-div{
+    text-align: center;
+    color: #707070;
+    font-size: 16px;
+    max-width: 200px;
+    margin: 10px;
+    font-weight: bolder;
+   
+}
+.Card-Columns, .Card-box{
+    max-width: 220px !important;
+    max-height: 350px !important;
+}
+.Card-Columns{
+    box-sizing: border-box;
+    padding: 1%;
+    border: 0px !important;
+    margin: 2%;
+}
+.Card-box{
+    border: 0;
+    padding: 2%;
+}
+
+.Card-Title{
+font-size: 14px;
+margin: 0;
+}
+
+.Card-Desc{
+    font-size: 12px;
+    margin: 0;
+}
+
+.oldValue, .parcelas{
+    font-size: 12px;
+    margin: 0;
+}
+
+.newValue{
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0;
+}
+.btn-comprar{
+    background-color: #FFF;
+    border: 1px solid #707070;
+    color: #707070;
+    width: 100%;
+    text-align: center;
+
+}
+.btn-row{
+    margin: 10%;
+    width: 90vw;
+}
+.btn-col{
+    text-align: center;
+}
+.Mais-Produtos{
+    background-color: #FFFFFF !important;
+    border-color: #707070 !important;
+    color: #707070 !important;
+    width: 340px !important;
+    height: 39px !important;
+}
